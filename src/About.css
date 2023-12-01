@@ -1,0 +1,22 @@
+.about {
+    margin: 20px 150px 0 150px;
+}
+
+.about h1 {
+    color: rgb(180, 197, 27);
+}
+
+.about p {
+    color: white;
+    font-size: 15px;
+}
+
+.about .bios {
+    margin-top: 50px;
+}
+
+.about .bios span {
+    margin-right: 30px;
+    font-size: 15px;
+    color: white;
+}

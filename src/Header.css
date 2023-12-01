@@ -1,0 +1,57 @@
+header {
+    margin: 0 20px 20px 20px;
+    background: linear-gradient(to bottom, rgb(226, 204, 7), rgb(180, 197, 27), rgb(23, 18, 4));
+    color: rgb(1, 1, 1);
+    height: 80px;
+}
+
+.HeaderWrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+    height: 50px;
+}
+
+.HeaderWrapper h3 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.HeaderWrapper ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: auto;
+}
+
+.HeaderWrapper ul li {
+    margin: 0 8px 0 8px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+
+.HeaderWrapper ul li .navLink {
+    text-decoration: none;
+    color: rgb(23, 18, 4);
+}
+
+.HeaderWrapper ul li::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(23, 18, 4);
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    width: 0;
+    transition: width 0.5s ease;
+   
+}
+
+.HeaderWrapper ul li:hover::after {
+    width: 100%;
+}

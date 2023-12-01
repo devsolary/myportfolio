@@ -1,0 +1,42 @@
+.projectContainer {
+    margin: 80px 50px 0 50px;
+    border-top: 2px solid  rgb(180, 197, 27);
+    border-bottom: 2px solid  rgb(180, 197, 27);
+    
+}
+
+.projectContainer h2 {
+    color: white;
+}
+
+.projects {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.project {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: all ease 0.5s;
+}
+
+.project:hover {
+    box-shadow: 5px 5px 10px rgb(180, 197, 27);
+}
+
+.project a {
+    text-decoration: none;
+    color: white;
+}
+
+.projects {
+    white-space: nowrap;
+}
+
+
+
+.projectContainer .projects .project img {
+    height: 150px;
+}
